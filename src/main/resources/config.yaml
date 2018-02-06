@@ -1,0 +1,16 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 5040
+  adminConnectors:
+    - type: http
+      port: 5041
+apiName: nexmo
+apiVersion: v1
+apiProvider: admin
+operatorList: OPERATOR1
+mysql:
+  username: root
+  password: root
+  apm: prodapimgtdb
+  dep: proddepdb
